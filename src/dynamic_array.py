@@ -30,6 +30,15 @@ class DynamicArray:
         # increment count
         self.count += 1
         
+    def pop(self):
+        # set the return value
+        retval = self.storage[self.count - 1]
+        # set the current count - 1 value to None
+        self.storage[self.count - 1] = None
+        # decrement count
+        self.count -= 1
+        # return the value
+        return retval
 
     def double_size(self):
         # set capacity to capacity times 2
@@ -52,4 +61,6 @@ a.append(34)
 a.append(12)
 a.append(9)
 a.append(90)
+print(a.storage)
+print(a.pop())
 print(a.storage)
