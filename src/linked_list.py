@@ -1,4 +1,4 @@
-# lets make a linked list class
+# 02 lets make a linked list class
 
 
 
