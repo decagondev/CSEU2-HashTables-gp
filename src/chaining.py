@@ -1,4 +1,4 @@
-# lets see how long the linked list chains get
+# 03 lets see how long the linked list chains get
 
 import random
 def longest_linked_list_chain(keys, buckets, loops=10, useSHA=False):
