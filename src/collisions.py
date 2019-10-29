@@ -10,7 +10,7 @@ def how_many_before_collision(buckets, loops=1):
     Run `loops` number of times.
     '''
     # loop over loops range
-    for i in range(loops):
+    for _ in range(loops):
         # track the tries count
         tries = 0
         # get a set of tried data
